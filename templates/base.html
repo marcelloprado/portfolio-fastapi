@@ -21,10 +21,15 @@
     <div class="d-flex flex-column min-vh-100">
         <nav>
             <ul>
-                <li><a href="/">Início</a></li>
-                <li><a href="/sobre">Sobre</a></li>
-                <li><a href="/projetos">Projetos</a></li>
-                <li><a href="/contato">Contato</a></li>
+                {% for item in [
+                    {'url': '/', 'nome': 'Início'},
+                    {'url': '/sobre', 'nome': 'Sobre'},
+                    {'url': '/projetos', 'nome': 'Projetos'},
+                    {'url': '/contato', 'nome': 'Contato'}
+                ] %}
+                
+                <li><a href="{{ item.url }}">{{ item.nome }}</a></li>
+        {% endfor %}
             </ul>
         </nav>
 
