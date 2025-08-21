@@ -1,9 +1,13 @@
-/*~ Estilos globais */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: linear-gradient(to right, #c7e0f8, #cdd1f1);
@@ -14,7 +18,7 @@ body {
 }
 
 :root{
-    --primary-color: #61dafb;
-    --secondary-color: #282c34;
-    
+    --azul-letras: #61dafb;
+    --fundo: #282c34;
+
 }

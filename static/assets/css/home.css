@@ -3,32 +3,64 @@ span {
 }
 .nome-completo {
     white-space: nowrap;
-    font-size: 2.5rem; /* tamanho padrão desktop */
+    font-size: 4.0rem;
 }
 
 /*^ Foto */
 img.rounded-circle {
-    border: 5px solid #e0e0e0;
-    max-width: 300px;
+    border: 0.5rem solid #e0e0e0;
+    max-width: 30rem;
     width: 100%;
     height: auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
 }
 .perfil-img {
-    max-width: 300px;
-    border: 5px solid #e0e0e0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 20rem;
+    border: 0.5rem solid #e0e0e0;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease;
 }
 .perfil-img:hover {
     transform: scale(1.03);
 }
 
-/*^ Rodapé */
-.footer {
-    background-color: #282c34;
-    color: white;
-    padding: 20px;
+/* Tablets */
+@media (max-width: 99.2rem) { 
+  .nome-completo {
+    font-size: 3.2rem;
+  }
+
+  .perfil-img {
+    max-width: 22rem;
+  }
+}
+
+/* Celulares médios */
+@media (max-width: 76.8rem) { 
+  .nome-completo {
+    font-size: 2.7rem;
+    white-space: normal;
+  }
+
+  .perfil-img {
+    max-width: 18rem; 
+  }
+}
+
+/* Celulares pequenos */
+@media (max-width: 48rem) { 
+  .nome-completo {
+    font-size: 2.2rem;
     text-align: center;
-    margin-top: auto;  /* empurra o footer para baixo */
+  }
+
+  .perfil-img {
+    max-width: 15rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .perfil-section {
+    text-align: center;
+  }
 }

@@ -2,34 +2,32 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #2e333d;
+    background-color: var(--fundo);
 }
 
 nav li {
-    margin: 0 40px;
+    margin: 0 4.0rem;
 }
 
 nav a {
     display: inline-block;
-    padding: 20px 30px;
-    color: rgb(97, 218, 251);
+    padding: 1.2rem 3rem;
+    color: var(--azul-letras);
     text-decoration: none;
     transition: background-color 0.3s;
+    font-size: 1.5rem;
 }
 
 nav a:hover {
     background-color: #444;
     border-radius: 15%;
-    box-shadow: 0 4px 8px rgba(97, 218, 251, 0.2);
+    box-shadow: 0 0.4rem 0.8rem rgba(97, 218, 251, 0.2);
 }
-
-
 
 /*^ Rodapé */
 .footer {
-    background-color: #282c34;
+    background-color: var(--fundo);
     color: white;
-    padding: 20px;
     text-align: center;
-    margin-top: auto;  /* empurra o footer para baixo */
+    padding-top: 1.0rem;
 }
