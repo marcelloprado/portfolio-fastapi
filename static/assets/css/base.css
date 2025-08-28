@@ -1,5 +1,5 @@
 .container {
-    max-width: 100%;
+    flex: 1;
 }
 
 nav ul {
@@ -34,6 +34,9 @@ nav a:hover {
     background-color: var(--fundo);
     color: white;
     text-align: center;
-    padding-top: 1.0rem;
-    font-size: small;
+    padding-top: 0.8rem;
+    font-size: 1.2rem;
+    margin-top: auto;
 }
+
+

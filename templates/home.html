@@ -4,18 +4,20 @@
 <div class="container-home">
     <div class="row align-items-center">
         <!-- Texto -->
-        <div class="col texto-esquerda text-center text-md-start order-2 order-md-1">
+        <div class="col texto-esquerda text-center text-md-start">
             <h1 class="nome-completo">
                 Olá, eu sou o <span class="text-primary">Marcello Prado Muller</span>
             </h1>
-            <p class="lead">Desenvolvedor Frontend | Python | Em evolução no Backend</p>
+            <div class="text">
+                <p class="lead">Desenvolvedor Frontend | Python | Em evolução no Backend</p>
 
-            <p>Bem-vindo ao meu portfólio! Aqui você vai encontrar alguns dos meus projetos favoritos, desenvolvidos com dedicação, foco em boas práticas e uso de tecnologias modernas.</p>
-            <p class="fst-italic mt-5">✨Transformando ideias em soluções digitais de verdade.</p>
+                <p>Bem-vindo ao meu portfólio! Aqui você vai encontrar alguns dos meus projetos favoritos, desenvolvidos com dedicação, foco em boas práticas e uso de tecnologias modernas.</p>
+                <p class="fst-italic mt-5">✨Transformando ideias em soluções digitais de verdade.</p>
+            </div>
         </div>
         
         <!-- Imagem -->
-        <div class="col text-center mt-4 mt-md-0 order-1 order-md-2">
+        <div class="col text-center mt-4 mt-md-0">
             <img src="{{ url_for('static', filename='assets/imagens/perfil/minha-foto.png') }}"
             alt="Foto de Marcello"
             class="img-fluid rounded-circle perfil-img">
@@ -23,7 +25,7 @@
         
     </div>
         <!-- Ícones das tecnologias -->
-        <div class="icones my-4 text-center order-3">
+        <div class="icones my-4 text-center">
             <h3 class="mb-3">Tecnologias usadas nesse projeto</h3>
             <div class="d-flex flex-wrap justify-content-center gap-4">
                 <div class="tech-icon" data-bs-toggle="tooltip" title="Python">
