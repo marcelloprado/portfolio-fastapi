@@ -51,10 +51,7 @@ img.rounded-circle {
 }
 
   .perfil-img {
-    width: wrap-content;
+    width: 15rem;
   }
-  .texto-esquerda p {
-    font-size: 1.2rem;
-    
-  }
+ 
 }
