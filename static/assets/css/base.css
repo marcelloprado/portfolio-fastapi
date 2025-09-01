@@ -40,3 +40,59 @@ nav a:hover {
 }
 
 
+/* Container do menu */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fundo);
+    padding: 1rem 2rem;
+}
+
+/* Hamburger (escondido no desktop) */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    color: var(--azul-letras);
+    cursor: pointer;
+}
+
+/* Menu padrão desktop */
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+/* Mobile */
+@media (max-width: 992px) {
+    .hamburger {
+        display: block;
+    }
+
+    .menu-container {
+    display: flex;
+    justify-content: end;
+}
+
+    #nav-links {
+        display: none; /* escondido por padrão */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        background-color: var(--fundo);
+        width: 150px;
+        text-align: right;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    #nav-links.active {
+        display: flex; /* aparece quando clica */
+    }
+
+    #nav-links li {
+        margin: 1rem 0;
+    }
+}

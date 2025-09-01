@@ -55,3 +55,25 @@ img.rounded-circle {
   }
  
 }
+
+@media (max-width: 576px) {
+  .nome-completo {
+    font-size: 2rem; /* menor ainda, cabe bem */
+  }
+
+  .lead {
+    font-size: 1rem; /* texto enxuto */
+  }
+
+  .perfil-img {
+  max-width: 350px; /* controla tamanho máximo da foto */
+  width: 100%;
+  height: auto;
+
+  .social-icons a {
+    font-size: 1.3rem; /* ícones menores */
+    margin: 0.3rem; /* mais próximos */
+  }
+}
+
+}
