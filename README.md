@@ -55,7 +55,8 @@ gunicorn
 ✔️ Layout responsivo (mobile e desktop)  
 ✔️ Deploy em produção  
 
-## 🚀 Como rodar localmente
+## 🚀 Como rodar localmente ou na rede
+🔗 Acesse online: [Portfólio](portfolio-python-swqi.onrender.com)
 
 * Clone este repositório
 git clone https://github.com/seu-usuario/portfolio-python.git
