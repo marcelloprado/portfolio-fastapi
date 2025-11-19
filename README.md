@@ -4,7 +4,6 @@
 O site está hospedado na plataforma Render e foi construído com foco em aprendizado, boas práticas e design limpo.
 
 🔗 Acesse online: [Portfólio](https://portfolio-python-swqi.onrender.com/)
- [Portfólio](https://portfolio-python-swqi.onrender.com/)
 
 
 ## 🛠️ Tecnologias Utilizadas
