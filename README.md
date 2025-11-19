@@ -3,7 +3,7 @@
 🚀 Meu portfólio desenvolvido em Python + Flask, apresentando meus projetos e habilidades de forma organizada e responsiva.<br>
 O site está hospedado na plataforma Render e foi construído com foco em aprendizado, boas práticas e design limpo.
 
-🔗 Acesse online: [Portfólio](portfolio-python-swqi.onrender.com)
+🔗 Acesse online: [Portfólio]([https://portfolio-python-swqi.onrender.com/])
 
 
 ## 🛠️ Tecnologias Utilizadas
@@ -56,7 +56,7 @@ gunicorn
 ✔️ Deploy em produção  
 
 ## 🚀 Como rodar localmente ou na rede
-🔗 Acesse online: [Portfólio](portfolio-python-swqi.onrender.com)
+🔗 Acesse online: [Portfólio](https://portfolio-python-swqi.onrender.com/)
 
 * Clone este repositório
 git clone https://github.com/seu-usuario/portfolio-python.git
