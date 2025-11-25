@@ -1,33 +1,13 @@
-/*^ Ícones das Tecnologias */
-.container-tecnologias {
-    margin-top: 55px;
-    border-radius: 15px;
-}
-.container-tecnologias h3 {
-    padding: 30px;
-    text-align: center;
-}
-.icones {
-    padding: 55px;
-}
-.icones h3 {
-    padding-bottom: 30px;
-}
-.tech-icon {
-    transition: transform 0.3s ease;
-}
-.tech-icon:hover {
-    transform: scale(1.2);
-}
-.tech-icon.git {
-    color: rgb(216, 58, 0);
-}
-.tech-icon.bootstrap {
-    color: #563d7c;
-}
-
-
 /*^ Carrousel */
+
+.container-carousel {
+    width: 100%;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
 .carousel-item {
     position: relative; /* garante que o texto use o slide como referência */
@@ -63,4 +43,32 @@
     border: 2px solid #282c34;
     border-radius: 50%;
     background-color: #3b869b;
+}
+
+/*^ Ícones das Tecnologias */
+.container-tecnologias {
+    margin-top: 55px;
+    border-radius: 15px;
+}
+.container-tecnologias h3 {
+    padding: 30px;
+    text-align: center;
+}
+.icones {
+    padding: 55px;
+}
+.icones h3 {
+    padding-bottom: 30px;
+}
+.tech-icon {
+    transition: transform 0.3s ease;
+}
+.tech-icon:hover {
+    transform: scale(1.2);
+}
+.tech-icon.git {
+    color: rgb(216, 58, 0);
+}
+.tech-icon.bootstrap {
+    color: #563d7c;
 }
